@@ -5,7 +5,7 @@ BEAT="${1:-filebeat}"
 TAG="${2}"
 
 if [[ -z ${TAG} || ${TAG} == "master" ]] ; then
-    TAG="v7.16.2"
+    TAG="v7.10.1"
     echo "Using default tag(${TAG})"
 fi
 

@@ -19,7 +19,7 @@ jobs:
 
     strategy:
       matrix:
-        arch: [armv6, armv7]
+        arch: [armv7]
         beat: [filebeat, metricbeat, packetbeat, heartbeat]
         distro: [buster]
         go: [1.17.5]
